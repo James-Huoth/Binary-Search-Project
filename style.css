@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e8b57;
+  color: pink;
+  display: grid;
+  place-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+img{
+  width: 5vw
+}
+section div{
+  width:10vw;
+  opacity:1;
+  transition: opacity 300ms;
+  display: grid;
+  place-content: center;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#Hawks{
+  background-color:#dc2c34;
+  border-color:white;
+}
+#Celtics{
+  background-color:#008248;
+ border-color:white
+}
+#Nets{
+  background-color:#bfbfbf;
+ border-color:black
+}
+#Hornets{
+  background-color:#00788c;
+ border-color:#1c105f
+}
+#Grizzlies{
+  background-color:#5d76a9;
+ border-color:#12173f
+}
+#Bulls{
+  background-color:#ba0c35;
+ border-color:black
+}
+#Cavs{
+  background-color:#6f2633;
+ border-color:#deab26
+}
+#Mavs{
+  background-color:#005aa7;
+ border-color:white
+}
+#Heat{
+  background-color:#98002e;
+   border-color:#f79f19
+}
+#Bucks{
+  background-color:#005422;
+   border-color:#e5d5b8
+}
+#Wolves{
+  background-color:#001445;
+ border-color:#003588
+}
+#Pelicins{
+  background-color:#01285e;
+ border-color:#bd9b58
+}
+#Knicks{
+  background-color:#e7631e;
+ border-color:#0e49a0
+}
+#Thunder{
+  background-color:#fa4e22;
+ border-color:#017ec2
+}
+#Magic{
+  background-color:#0069ab;
+ border-color:#13242c
+}#Sixers{
+  background-color:#013da4;
+ border-color:#ed174c
+}
+#Suns{
+  background-color:#2c2866;
+ border-color:#f69f1c
+}
+#Blazers{
+  background-color:#d00b2c;
+ border-color:#fcfcfc
+}
+#Kings{
+  background-color:#5b2c81;
+ border-color:#5c6670
+}
+#Spurs{
+  background-color:#000000;
+ border-color:#a1a7a9
+}
+#Raptors{
+  background-color:#990c36;
+ border-color:#8c8d8c
+}
+#Jazz{
+  background-color:#002144;
+ border-color:#ffa118
+}
+#Wizards{
+  background-color:#02295a;
+ border-color:#e31837
+}
+#Nuggets{
+  background-color:#0d2240;
+ border-color:#fdc527
+}
+#Pistons{
+  background-color:#fe083b;
+ border-color:#0261c6
+}
+#Warriors{
+  background-color:#f8c02f;
+ border-color:#234ea5
+}
+#Rockets{
+  background-color:#ce243d;
+ border-color:#232a35
+}
+#Pacers{
+  background-color:#fdc52b;
+ border-color:#0e2749
+}
+#Clippers{
+  background-color:#bd3d62;
+ border-color:#0046ae
+}
+#Lakers{
+  background-color:#fdb827;
+ border-color:#552583
+}
